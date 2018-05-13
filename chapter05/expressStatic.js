@@ -7,3 +7,6 @@ let userUploadsPath = path.resolve(__dirname, "user_uploads");
 
 app.use(express.static(publicPath));
 app.use(express.static(userUploadsPath));
+
+console.log(publicPath);
+console.log(userUploadsPath);
